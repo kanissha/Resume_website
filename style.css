@@ -16,12 +16,12 @@ h2{
   }
   
   nav {
-      background-color: rgb(92, 195, 206);
+      background-color: rgb(128, 206, 92);
       position: fixed;
       top: 0;
       left: 0;
       right: 0;
-      height: 80px;
+      height: 0.0025%;
       display: flex;
       align-items: center;
       box-shadow: 0 0 25px 0 black;
@@ -263,7 +263,53 @@ h2{
   
   }
   
-  
+  .navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+}
+.navbar.sticky{
+    padding: 15px 0;
+    background: crimson;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .logo a span{
+    color: rgb(37, 20, 220);
+    transition: all 0.3s ease;
+}
+.navbar.sticky .logo a span{
+    color: #fff;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    display: block;
+    color: rgb(241, 11, 11);
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 65px;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+    color: crimson;
+}
+.navbar.sticky .menu li a:hover{
+    color: #fff;
+}
   
   
   
