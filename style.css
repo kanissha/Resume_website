@@ -1,0 +1,315 @@
+nav * {
+    display: inline;
+    
+}
+nav li {
+    margin: 20px;
+    
+}
+nav li a {
+    color: black;
+    text-decoration: none;
+}
+nav a.split {
+    float: right;
+    background-color: #ffffff;
+  }
+  nav a:hover {
+    background-color: rgb(205, 201, 75);
+    color: black;
+    border-radius: 5px;
+    border-width: 80px;
+  }
+  nav a.active {
+    background-color: #a5b059;
+    color: white;
+  }
+
+/* About section */
+
+.details i{
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  background: rgb(1, 1, 1);
+  #background-color: rgb(227, 236, 244);
+  color: rgb(92, 195, 206);
+  border-radius: 50%;
+  margin-right: 15px;
+  font-size: 25px;
+  padding-top:6px;
+  vertical-align: middle; 
+  /* position: relative; */
+}
+about{
+  background-color: rgb(227, 236, 244);
+}
+.about h2{
+    text-align: center;
+}
+.about p{
+    color: black;
+    text-align: center;
+}
+
+.about.row{
+  column-gap: 5px;
+}
+
+   
+img {
+     max-width: 300px;
+     max-height:350px;
+     border: 5px solid #555;
+     float: left;
+   }
+   
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  .logo img{
+    border: none;
+    padding-left:20px;
+    padding-top: 0px; 
+    width: 70px;
+    height: 70px;
+    margin: 1;
+    border: 2px solid green;
+    padding: 10px;
+
+   
+  }
+  .logo1 img{
+      width: 50px;
+      height: 70px;
+      margin: 1;
+      border: 2px solid green;
+      padding: 10px;
+     
+   
+  }
+  .column.details{
+    padding-left: 20px;
+  }
+
+
+/* Education */
+
+.education{
+    margin:auto;
+    text-align: center;
+}
+.education h2{
+    text-align: center;
+}
+.education.row{
+  padding-left: 200px;
+  padding-right: 100px;
+  column-width: 50px;
+}
+
+.edu_title{
+  font-weight: 900;
+}
+
+
+
+/* Skills */
+
+.skills{
+    margin: auto;    
+}
+
+.skills h2{
+    text-align: center;
+}
+/* .skills ul{
+  padding-left:50px;
+} */
+
+.areas{
+  
+  padding-left: 240px;
+ 
+}
+
+.areas li{
+  font-size:18px;
+}
+.areas dt{
+  font-size:23px;
+  font-weight: bold;
+}
+
+.area-title {
+  font-weight:900;
+  font-size: 20px;
+}
+
+/* Certifications */
+
+.cerf{
+    margin:auto;
+    text-align: center;
+}
+
+.cerf h2{
+    text-align: center;
+}
+
+
+.cerf table,th,td{
+   
+        border:1px solid black;
+        text-align: center;
+        width: 60%;
+        padding: 10px;
+          
+}
+
+.cerf tr{
+  height:50px;
+}
+
+.cerf .center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Project */
+
+.project{
+    margin:auto;
+    text-align: center;
+    
+}
+.project h2{
+    text-align:center
+}
+
+.project a{
+  font-size: 1rem;
+}
+
+.row{
+  padding-left:100px;
+ 
+  
+
+}
+
+
+.title{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+#item p{
+  font-weight: 100;
+}
+#item a{
+  text-decoration: none;
+}
+
+#item button{
+  
+    background-color:#a3c44a;
+    color: rgb(167, 35, 35);
+    border:none;
+    border-radius:10px;
+    width: 100px;
+    height:30px;
+
+}
+
+#item {
+  width:200px;
+  text-align:center;
+  display:block;
+  background-color: transparent;
+  border: 1px solid transparent;
+  margin-right: 10px;
+  margin-bottom: 1px;
+  float:left;
+}
+
+#item img{
+  border:none;
+  border-radius: 5px;
+
+}
+
+.navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  padding: 30px 0;
+  font-family: 'Ubuntu', sans-serif;
+  transition: all 0.3s ease;
+}
+.navbar.sticky{
+  padding: 15px 0;
+  background: crimson;
+}
+.navbar .max-width{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .logo a{
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+.navbar .logo a span{
+  color: rgb(37, 20, 220);
+  transition: all 0.3s ease;
+}
+.navbar.sticky .logo a span{
+  color: #fff;
+}
+.navbar .menu li{
+  list-style: none;
+  display: inline-block;
+}
+.navbar .menu li a{
+  display: block;
+  color: rgb(241, 11, 11);
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 65px;
+  transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+  color: crimson;
+}
+.navbar.sticky .menu li a:hover{
+  color: #fff;
+}
+
+
+.intro{
+  background-color: rgb(227, 236, 244);
+}
+.education{
+  background-color: rgb(227, 237, 209);
+}
+.skills{
+  background-color: rgb(245, 226, 239);
+}
+.cerf{
+  background-color: rgb(247, 222, 222);
+}
+.project{
+  background-color: rgb(217, 241, 217);
+}
+.query{
+  background-color: rgb(239, 235, 205);
+  text-align: center;
+}
